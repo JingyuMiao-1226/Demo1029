@@ -96,7 +96,7 @@ def eval_query(query: str, words: list):
 st.markdown("### 🔍 检索设置")
 col1, col2 = st.columns([6, 1])
 with col1:
-    query = st.text_input("输入检索词（支持 AND / OR / NOT）：", value="女人 AND 爱", label_visibility="collapsed")
+    query = st.text_input("输入检索词（支持 AND / OR / NOT）：", value="", label_visibility="collapsed")
 with col2:
     search_btn = st.button("🔍 检索")
 
